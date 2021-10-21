@@ -53,7 +53,8 @@ function ReplyComment(props) {
           }}
           onClick={handleChange}
         >
-          View {ChildCommentNumber} more comment(s)
+          View {ChildCommentNumber} {OpenReplyComments ? "less" : "more"}{" "}
+          comment(s)
         </p>
       )}
 

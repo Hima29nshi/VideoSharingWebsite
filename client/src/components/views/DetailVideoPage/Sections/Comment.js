@@ -37,7 +37,7 @@ function Comment(props) {
   return (
     <div>
       <br />
-      <p>Comments</p>
+      <p style={{ marginTop: "3em" }}>Comments</p>
       <hr />
       {/* Comment Lists  */}
       {console.log(props.CommentLists)}
